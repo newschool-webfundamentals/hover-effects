@@ -1,0 +1,38 @@
+a {
+ color: black; 
+}
+
+/*When hovered, link turns pink*/
+
+a:hover {
+  color: pink;
+  transition: all 1s;
+}
+
+
+.box {
+  width:483px;
+  height:298px;
+  background:#676470;
+  opacity: .5;
+}
+
+/* When hovered, box has shadow and darkens */
+.box:hover {
+  opacity: 1;
+  box-shadow: 10px 10px 5px 0px rgba(1,50,100,0.3);
+  transition: all 2s;
+}
+
+/*Hover turns image backgroun to a different url*/
+
+.hover-me {
+  background: url("http://i.imgur.com/sqUou43.png");
+  width: 720px;
+  height: 420px;
+  transition: background 1s;
+}
+
+.hover-me:hover {
+  background: url("http://i.imgur.com/On6oPfs.png");
+}
